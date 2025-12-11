@@ -1,0 +1,42 @@
+/* Body and background */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #006400; /* Dark green background */
+    color: #fff;
+    line-height: 1.6;
+    position: relative; 
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #222;
+    padding: 20px 0;
+}
+
+/* Image */
+.header-image {
+    max-width: 90%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Pine trees */
+.pine-tree {
+    position: absolute;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path d='M128 16 L64 112 H104 L48 192 H96 L80 240 H176 L160 192 H208 L152 112 H192 Z' fill='black'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px; 
+    height: 70px;
+    pointer-events: none;
+    opacity: 1; /* Always visible */
+}
