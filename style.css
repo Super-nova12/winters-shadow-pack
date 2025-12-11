@@ -10,17 +10,18 @@ body {
 
 header {
     text-align: center;
-    background-color: #222;
-    padding: 20px 0;
+    padding: 30px 0;
     position: relative;
     z-index: 2;
+    background: none;
 }
 
 .header-image {
+    width: 350px;
     max-width: 90%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 main {
@@ -37,21 +38,23 @@ main {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M128 16 L64 112 H104 L48 192 H96 L80 240 H176 L160 192 H208 L152 112 H192 Z' fill='%23000000'/%3E%3C/svg%3E");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50px;
-    height: 70px;
+    width: 40px;
+    height: 60px;
+    opacity: 0.9;
     pointer-events: none;
-    opacity: 1;
-    z-index: 1; /* makes trees visible above background */
+    z-index: 0;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.4em;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 p {
     font-size: 1.1em;
     line-height: 1.5;
 }
+
 
 
