@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Winters Shadow Pack</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="https://i.ibb.co/m5FrcPx9/Drawing.png" alt="Website Header" class="header-image">
+        <img src="https://i.ibb.co/j97YWnPh/Screenshot-2025-12-11-at-11-11-42-AM.png"
+             alt="Website Header" class="header-image">
     </header>
 
     <main>
@@ -17,17 +19,17 @@
     </main>
 
     <script>
-        // Function to create random pine trees
         function createPineTrees(num) {
             for (let i = 0; i < num; i++) {
                 let pineTree = document.createElement('div');
                 pineTree.classList.add('pine-tree');
-                pineTree.style.top = `${Math.random() * 100}vh`; /* Random vertical position */
-                pineTree.style.left = `${Math.random() * 100}vw`; /* Random horizontal position */
+                pineTree.style.top = `${Math.random() * 100}vh`;
+                pineTree.style.left = `${Math.random() * 100}vw`;
                 document.body.appendChild(pineTree);
             }
         }
-        createPineTrees(20); // Create 20 random pine trees
+        createPineTrees(30);
     </script>
 </body>
 </html>
+
