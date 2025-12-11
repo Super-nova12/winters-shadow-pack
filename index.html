@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Winters Shadow Pack</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS -->
+</head>
+<body>
+    <header>
+        <img src="https://i.ibb.co/m5FrcPx9/Drawing.png" alt="Website Header" class="header-image">
+    </header>
+
+    <main>
+        <h1>Welcome to the Winters Shadow Pack!</h1>
+        <p>This is a private website for a guild on Furry Paws. If you are viewing this page, you either have been provided a password or just hacked into this. The purpose of this site is for a more organized and interesting layout. Incognito (creator of site) and Rory (creator of guild) have access to editing this.</p>
+    </main>
+
+    <script>
+        // Function to create random pine trees
+        function createPineTrees(num) {
+            for (let i = 0; i < num; i++) {
+                let pineTree = document.createElement('div');
+                pineTree.classList.add('pine-tree');
+                pineTree.style.top = `${Math.random() * 100}vh`; /* Random vertical position */
+                pineTree.style.left = `${Math.random() * 100}vw`; /* Random horizontal position */
+                document.body.appendChild(pineTree);
+            }
+        }
+        createPineTrees(20); // Create 20 random pine trees
+    </script>
+</body>
+</html>
