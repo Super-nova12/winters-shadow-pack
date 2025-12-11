@@ -11,14 +11,18 @@ header {
     text-align: center;
     padding: 20px 0;
     background: transparent;
+    position: relative;
+    z-index: 5;
 }
 
 .header-image {
-    width: 600px;
+    width: 400px;
     max-width: 90%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 5;
 }
 
 main {
@@ -26,6 +30,8 @@ main {
     max-width: 700px;
     margin: 40px auto;
     padding: 20px;
+    position: relative;
+    z-index: 5;
 }
 
 .pine-tree {
@@ -46,13 +52,18 @@ h1 {
     font-size: 2.4em;
     margin-bottom: 20px;
     font-weight: 600;
+    z-index: 5;
+    position: relative;
 }
 
 p {
     font-family: 'Cinzel', serif;
     font-size: 1.1em;
     line-height: 1.5;
+    z-index: 5;
+    position: relative;
 }
+
 
 
 
